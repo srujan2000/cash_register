@@ -15,9 +15,9 @@
       <h1><i class="fas fa-money-bill-alt fa-1x"></i> Cash Register</h1>
       <div class="inp">
         <label for="bill">Bill</label>
-        <input id="bill" type="number">
+        <input id="bill" placeholder="Enter Bill Amount" type="text">
         <label for="cash">Cash</label>
-        <input id="cash" type="number">
+        <input id="cash" placeholder="Enter Cash Amount" type="text">
         <button id="btn">Submit</button>
       </div>
     </section>
@@ -27,55 +27,22 @@
     </div>
 
      <section id="counter">
+       <h1 id="change"></h1>
          <table id="count">
-         <tr>
-           <th>Notes</th>
-           <th>Quantity</th>
-         </tr>
-         <tr>
-           <td>1</th>
-           <td>2</th>
-         </tr>
-           <tr>
-           <td>2</th>
-           <td>2</th>
-         </tr>
-           <tr>
-           <td>5</th>
-           <td>2</th>
-         </tr>
-           <tr>
-           <td>10</th>
-           <td>2</th>
-         </tr>
-           <tr>
-           <td>20</th>
-           <td>2</th>
-         </tr>
+           <thead>
           <tr>
-           <td>50</th>
-           <td>2</th>
-         </tr>
-           <tr>
-           <td>100</th>
-           <td>2</th>
-         </tr>
-           <tr>
-           <td>200</th>
-           <td>2</th>
-         </tr>
-           <tr>
-           <td>500</th>
-           <td>2</th>
-         </tr>
-           <tr>
-           <td>2000</th>
-           <td>2</th>
-         </tr>
+            <th>Rupees</th>
+            <th>Number</th>
+          </tr>
+         </thead>
+       <tbody id="output">
+        
+       </tbody>
         </table>
      </section>
     
-    <script src="app.js"></script>
+
     <script src="https://kit.fontawesome.com/7700924690.js" crossorigin="anonymous"></script>
+     <script src="app.js"></script>
   </body>
 </html>
